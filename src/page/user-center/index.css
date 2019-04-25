@@ -1,0 +1,41 @@
+.crumb {
+    margin-bottom: 15px;
+    height: 50px;
+    background: #eee;
+    border-top: 2px solid #c60023;
+    line-height: 50px;
+    font-size: 14px;
+    color: #888;
+}
+
+.left-con {
+    float: left;
+}
+
+.right-con {
+    float: left;
+    width: 950px;
+}
+.right-con .panel {
+    margin-bottom: 15px;
+    padding: 10px;
+    background:#fff;
+}
+.right-con .panel .panel-title {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #666;
+    border-bottom: 1px solid #eee;
+}
+
+.form-line{
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.form-line .label{
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+}

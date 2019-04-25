@@ -1,0 +1,23 @@
+.nav-side {
+  float:left;
+  width: 130px;
+  min-height: 100px;
+}
+
+.nav-side .list-item {
+  line-height: 25px;
+  font-size: 15px;
+}
+
+.nav-side .list-item .link {
+  color: #888;
+}
+
+.nav-side .list-item.active .link {
+  color: #c60023;
+}
+
+.content.with-nav {
+  float: left;
+  width: 950px;
+}

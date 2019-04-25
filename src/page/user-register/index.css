@@ -1,0 +1,89 @@
+.user-wrap {
+    padding: 40px 0;
+    background: #e72955;
+}
+
+.user-con {
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    background: #fff;
+}
+
+
+.user-con .user-title {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #666;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-con .user-box {
+    padding: 20px;
+}
+
+.user-con .user-box .error-item {
+    position: relative;
+    display: none;
+    padding: 4px 0 4px 40px;
+    margin-bottom: 10px;
+    border: 1px solid red;
+    background: #fde9e9;
+    color: red;
+}
+
+.user-con .user-box .error-icon {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    margin-top: -7px;
+    font-size: 14px;
+}
+
+.user-box .user-item {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.user-box .user-item .user-label {
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    bottom: 1px;
+    width: 40px;
+    line-height: 36px;
+    background: #f3f3f3;
+    font-size: 18px;
+    color: #d3d3d3;
+    text-align: center;
+    border-right: 1px solid #bdbdbd;
+}
+
+.user-box .user-item .user-content {
+    padding: 10px 0 10px 50px;
+    width: 308px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 15px;
+    border: 1px solid #bdbdbd;
+    outline: none;
+}
+
+.user-box .btn-submit {
+    width: 100%;
+    padding: 2px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.user-box .link-item {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.user-box .link-item .link {
+    margin-left: 10px;
+    color: #999;
+}

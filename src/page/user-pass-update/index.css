@@ -1,0 +1,55 @@
+.crumb {
+    margin-bottom: 15px;
+    height: 50px;
+    background: #eee;
+    border-top: 2px solid #c60023;
+    line-height: 50px;
+    font-size: 14px;
+    color: #888;
+}
+
+.left-con {
+    float: left;
+}
+
+.right-con {
+    float: left;
+    width: 950px;
+}
+.right-con .panel {
+    margin-bottom: 15px;
+    padding: 10px;
+    background:#fff;
+}
+.right-con .panel .panel-title {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #666;
+    border-bottom: 1px solid #eee;
+}
+
+.panel .panel-body .user-info {
+    padding-left: 10px;
+}
+
+.panel-body .user-info .form-line {
+    margin: 10px 0;
+
+}
+
+.user-info .form-line .label {
+    margin-right: 20px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.user-info .form-line .input {
+    height: 25px;
+    line-height: 25px;
+    outline: none;
+}
+
+.user-info .form-line .btn-submit {
+    margin-left: 50px;
+}
