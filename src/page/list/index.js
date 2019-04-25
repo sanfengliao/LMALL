@@ -1,5 +1,6 @@
 require('./index.css')
-
+require('../common/nav/index.js')
+require('../common/header/index.js')
 var mm = require('../../util/mm')
 var productService = require('../../service/product-service')
 var template = require('./index.string')

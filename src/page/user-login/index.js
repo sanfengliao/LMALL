@@ -51,7 +51,7 @@ var page = {
             formError.show(validate.msg);
         } else {
             userService.login(formData, function(res) {
-                //window.location.href = mm.getUrlParam('redirect') || './index.html'
+                window.location.href = mm.getUrlParam('redirect') || './index.html'
             }, function(errMsg) {
                 formError.show(errMsg)
             })

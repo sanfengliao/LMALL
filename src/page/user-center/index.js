@@ -19,7 +19,8 @@ var page = {
     },
     loadUserInfo: function() {
         userService.getUserInfo(function(res) {
-            mm.readerHtml(template, res)
+            var html = mm.readerHtml(template, res)
+            $('.panel-body').html(html)
         }, function(err) {
             //mm.errorTips(err)
         })
